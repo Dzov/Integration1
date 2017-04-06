@@ -1,0 +1,242 @@
+
+/* ----------------------- MAIN STYLES ----------------------- */
+
+body {
+    background: url("../images/bg.jpg")  no-repeat;
+    background-size: cover;
+    color: #fff;
+    min-width: 100%;
+}
+
+li {
+    text-decoration: none; 
+    list-style: none; 
+}
+
+/* ----------------------- HEADER ----------------------- */
+
+.navbar {
+    background: transparent;
+    border: none;
+}
+
+.header_nav {
+    border-bottom: 3px solid #fff;
+    padding: 1rem;
+}
+
+a.navbar-brand {
+    color: white!important;
+    padding-left: 4rem;
+    font-size: 2.3em;
+}
+
+.searchForm {
+    background: url('../images/searchIcon.png') no-repeat center left;
+    padding-left: 40px;
+}
+
+.searchBar {
+    border: none;
+    border-radius: 0;
+    border-left: 2.5px solid white;
+    background: transparent;
+    padding: 15px;
+    line-height: 20px
+}
+
+.searchBar:focus,
+.searchBar:active, 
+.searchBar:active:focus {
+    outline: none;
+    border-color: white;
+}
+
+.personalNav {
+    font-size: 17px;
+}
+
+.panier {
+    padding: 0 15px;
+    background: url('../images/imgPanier.png') no-repeat left ;
+}
+
+.compte {
+    background: url('../images/imgMonCompte.png') no-repeat center left;
+    padding: 0 0 0 15px;
+}
+
+.panier, .compte, .searchForm {
+    background-size: 15%;
+}
+.panier a, .compte a {
+    padding: 0;
+}
+
+/* ----------------------- NAV ----------------------- */
+
+
+.navlist {
+    margin: 0 auto;
+    font-size: 26px;
+    font-weight: lighter;
+    text-align: center;
+    width: 26em;
+}
+
+.navitem {
+    padding: 0 10px;
+}
+
+.navitem:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.selected a {
+    text-decoration: none; 
+    color: black;
+    width: inherit;
+}
+
+/* ----------------------- JUMBOTRON ----------------------- */
+
+.jumbotron {
+    margin: 0;
+    padding: 0;
+    background: url('../images/jumboImg.jpg') no-repeat;
+    background-size: contain;
+    height: 46.5rem;
+    width: 100%;
+    position: relative;
+}
+
+.jumboBtns {
+    width: 95%;
+    position: relative;
+    top: 45%;
+    border: none;
+}
+
+.jumboRight {
+    float: right;
+    background: url("../images/jumboRight.png") no-repeat center;
+    background-size: contain;
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+.jumboLeft {
+    float: left;
+    background: url("../images/jumboLeft.png") no-repeat center;
+    background-size: contain;
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+/* ----------------------- MAIN SECTION ----------------------- */
+
+.presHeader, 
+.formHeader {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding: 1.5rem 0;
+}
+
+.presP {
+    padding-left: 0;
+}
+
+.loginForm {
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.idform label, 
+.mdpform label {
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+}
+
+.id, .mdp {
+    height: 5rem;
+    border-radius: 0; 
+}
+
+
+
+.formBtns {
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.loginBtn {
+    height: 5rem; 
+    color: white;
+    font-weight: lighter;
+    border-radius: 0; 
+    background-color: #af946a;
+    font-size: 2.3rem;
+    padding: 0 4rem;
+    border: none;
+}
+
+.loginBtn:hover {
+    background-color: rgba(175, 148, 106, .8);
+    color: white;
+}
+
+.loginBtn:focus,
+.loginBtn:active, 
+.loginBtn:active:focus {
+    outline: none;
+    border-color: none;
+}
+
+.mdpOublieBtn {
+    background: transparent;
+    float: right; 
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    height: 5rem;
+}
+
+.mdpOublieBtn:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.mdpOublieBtn:focus,
+.mdpOublieBtn:active, 
+.mdpOublieBtn:active:focus {
+    outline: none;
+    border-color: none;
+    color: white;
+}
+
+/* ----------------------- FOOTER ----------------------- */
+
+footer {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background: white;
+    color: grey;
+    font-size: .8em;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/responsive.css" type="text/css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-default header_nav">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">MYBRAND</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" >
+          <ul class="nav navbar-nav navbar-right personalNav">
+            <li>
+              <form class="navbar-form navbar-left searchForm">
+                <div class="form-group">
+                  <input type="text" class="form-control searchBar" placeholder="Rechercher un produit...">
+                </div>
+              </form>
+            </li>
+            <li class="panier"><a href="#">Mon panier</a></li>
+            <li class="compte"><a href="#">Mon compte</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </header>
+
+  <nav class="navbar mainNav">
+    <ul class="navlist nav-pills nav-justified">
+      <li class="navitem">CLIENTS</li>
+      <li class="navitem">MARQUES</li>
+      <li class="navitem selected">BOUTIQUES</li>
+      <li class="navitem">COMMANDES</li>
+      <li class="navitem">PANIER</li>
+    </ul>
+  </nav> 
+<!-- /nav -->
+  <div class="jumbotron">
+    <div class="container jumboBtns">
+      <div class=" jumboBtn jumboLeft"></div>
+      <div class="jumboBtn jumboRight"></div>
+    </div>
+  </div>
+<!-- /jumbotron-->
+  <section class="container-fluid">
+    <div class="brandPres col-md-6">
+      <h3 class="presHeader col-md-12">Test | MyBrand</h3>
+      <p class="col-md-6 presP">Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet eros a arcu pulbinar scelerisque et ec elit. Vestibulum mollis eudismod ex, at consequat dui vestibulum a. Phaselius tristique lacus commodo varius tempus. Sed a eleifend ipsum, non faucibus velit. Morbi fermenntum arcu vel mollis gravida. Donex eget elit accumsan, hendrerit neque vel, cursus elit. Maecenas eget trupis aliquet, semper leo at, consequat libero. Aliquam condimentum arcu a ornare ultrices. Nam malesuada nulla sed molestie euismod. Duis et orci varius, ornare ultrices. Nam malesuada nulla sed molestie euismod. Dius et orci verius, ornare quam feugiat, lacinia ligua. Aenean vel enim tempus, vehicula uma ac.</p>
+      <img src="images/presImg.jpg" class="col-md-6 presImg">
+    </div>
+
+    <form class="col-md-6 loginForm">
+      <h3 class="formHeader">MON COMPTE</h3>
+      <div class="form-group idform">
+        <label for="exampleInputEmail1">Identifiant</label>
+        <input type="email" class="form-control id" id="exampleInputEmail1">
+      </div>
+      <div class="form-group mdpform">
+        <label for="exampleInputPassword1">Mot de passe</label>
+        <input type="password" class="form-control mdp" id="exampleInputPassword1">
+      </div>
+      <div class="form-group formBtns">
+        <button type="submit" class="btn loginBtn">Se connecter</button>
+        <button type="submit" class="btn mdpOublieBtn">mot de passe oublié ?</button>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <span >La boutique de mode en ligne mybrand.com vous propose une collection de vêtements femme: Prêt-à-porter, Lingerie</span>
+    <span > © mybrand 2015 - Infos légales</span>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+
+</html>
